@@ -3,18 +3,15 @@
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 font-inter"
     >
-      <a
-        href="https://flowbite.com/"
-        class="flex items-center space-x-3 rtl:space-x-reverse"
-      >
-        <img
+      <a class="flex items-center space-x-3 rtl:space-x-reverse">
+        <!-- <img
           src="https://flowbite.com/docs/images/logo.svg"
           class="h-8"
           alt="Flowbite Logo"
-        />
+        /> -->
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap "
-          >kpbara</span
+          >apibara</span
         >
       </a>
       <button
@@ -41,50 +38,37 @@
           />
         </svg>
       </button>
-      <div
-        class="hidden w-full md:block md:w-auto"
-        id="navbar-default"
-      >
-        <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 "
+      <div class="flex font-interlight">
+        <a
+          href="#"
+          class="block py-2 px-3 rounded md:bg-transparent"
+          aria-current="page"
+          >Features</a
         >
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-3  bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0  md:dark:text-blue-500"
-              aria-current="page"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
-              >Pricing</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
-              >Contact</a
-            >
-          </li>
-        </ul>
+        <a
+          href="#"
+          class="block py-2 px-3 text-gray-900   md:border-0"
+          >Playground</a
+        >
+        <a href="#" class="block py-2 px-3 text-gray-900  md:border-0"
+          >Über uns</a
+        >
+      </div>
+      <div class="flex">
+        <a
+          href="#"
+          class="flex items-center py-3 px-3 text-gray-900  md:border-0 font-interlight mr-3"
+          ><img
+            src="../assets/images/login.png"
+            class="h-4 mr-3"
+            alt="Login Logo"
+          />Login</a
+        >
+        <a
+          href="#"
+          class="block bg-[#288E7E] py-3 text-white px-5 rounded-3xl md:border-0 "
+          >DEMO ANFORDERN</a
+        >
       </div>
     </div>
   </nav>

@@ -2,7 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face { 
-  font-family: "inter"; 
-  src: url("../fonts/Inter-Regular.ttf"); 
-} 
+body {
+  color: #282e38;
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url('../fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'inter-bold';
+  src: url('../fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'inter-thin';
+  src: url('../fonts/Inter-Thin.ttf');
+}
+@font-face {
+  font-family: 'inter-light';
+  src: url('../fonts/Inter-Light.ttf');
+}
