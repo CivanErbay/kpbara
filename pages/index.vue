@@ -3,6 +3,9 @@
     <Navbar></Navbar>
     <Hero></Hero>
     <Features></Features>
+    <InfoSlider></InfoSlider>
+    <About></About>
+    <Footer></Footer>
   </div>
 </template>
 
