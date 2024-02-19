@@ -4,7 +4,7 @@
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 font-inter relative"
       :class="{
         'overflow-hidden': !isMenuOpen,
-        'overflow-visible': isMenuOpen,
+        'overflow-visible ': isMenuOpen,
       }"
     >
       <a class="flex items-center space-x-3 rtl:space-x-reverse">

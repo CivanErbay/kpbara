@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="relative bg-heroBg bg-cover bg-center"
-  >
+  <div class="relative bg-heroBg bg-cover bg-center">
     <div class="container mx-auto">
       <img
         class="absolute top-0 left-0 h-3/4"
@@ -14,19 +12,19 @@
         alt=""
       />
 
-      <div class="mt-12 p-24 flex items-center">
+      <div class="px-4 py-12 md:mt-12 md:p-24 flex items-center">
         <div>
-          <p class="text-6xl bold font-interbold w-[500px]">
+          <p class="text-4xl md:text-6xl bold font-interbold md:w-[500px]">
             Wir denken KI für Dich
             <span
-              class="text-[#FB951C] after:content-heroUnderline after:inline-block after:w-8 after:absolute after:left-[300px] after:top-[230px]"
+              class="text-[#FB951C] hidden md:block after:content-heroUnderline after:inline-block after:w-8 after:absolute after:left-[300px] after:top-[230px]"
               >neu</span
             >
           </p>
-          <p class="font-interthin text-4xl w-[650px] mt-16">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat
+          <p class="font-interthin text-4xl md:w-[650px] mt-16">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat
           </p>
           <a
             href="#"
@@ -34,17 +32,9 @@
             >KOSTENLOSE DEMO ANFORDERN</a
           >
         </div>
-        <div class="flex items-center relative">
-          <img
-            class="w-1/2"
-            src="../assets/images/person_2.png"
-            alt=""
-          />
-          <img
-            class="w-1/3"
-            src="../assets/images/person_1.png"
-            alt=""
-          />
+        <div class="hidden md:flex items-center relative">
+          <img class="w-1/2" src="../assets/images/person_2.png" alt="" />
+          <img class="w-1/3" src="../assets/images/person_1.png" alt="" />
           <img
             class="absolute top-20 right-60 h-16"
             src="../assets/images/bulb.png"
