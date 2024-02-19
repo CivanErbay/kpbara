@@ -2,6 +2,10 @@
   <nav class="">
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 font-inter relative"
+      :class="{
+        'overflow-hidden': !isMenuOpen,
+        'overflow-visible': isMenuOpen,
+      }"
     >
       <a class="flex items-center space-x-3 rtl:space-x-reverse">
         <!-- <img
@@ -39,10 +43,10 @@
         </svg>
       </button>
       <div
-        class="bg-gray-200/90 absolute z-50 md:translate-y-0 p-8 md:p-0 top-full md:top-auto inset-x-0 h-screen md:h-auto flex-col md:bg-transparent md:flex md:flex-row font-interlight items-center justify-center md:justify-end transition-all"
+        class="bg-gray-200/90 absolute z-50 md:translate-x-0 p-8 md:p-0 top-full md:top-auto inset-x-0 h-screen md:h-auto flex-col md:bg-transparent md:flex md:flex-row font-interlight items-center justify-center md:justify-end transition-all"
         :class="{
-          'translate-y-full': !isMenuOpen,
-          'translate-y-0': isMenuOpen,
+          'translate-x-[100vw]': !isMenuOpen,
+          'translate-x-0': isMenuOpen,
         }"
       >
         <a
@@ -85,6 +89,5 @@ const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
-  console.log(isMenuOpen.value);
 };
 </script>
