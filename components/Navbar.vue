@@ -55,21 +55,20 @@
           aria-current="page"
           >Features</a
         >
-        <a href="#" class="block py-2 px-3 text-gray-900 md:border-0"
-          >Playground</a
-        >
+        <a class="block py-2 px-3 text-gray-900 md:border-0">Playground</a>
         <a href="#" class="block py-2 px-3 text-gray-900 md:border-0"
           >Über uns</a
         >
         <div class="flex flex-col md:flex-row">
-          <a
+          <nuxt-link
+            to="/dashboard"
             href="#"
             class="flex items-center py-3 px-3 text-gray-900 md:border-0 font-interlight mr-3"
             ><img
               src="../assets/images/login.png"
               class="h-4 mr-3"
               alt="Login Logo"
-            />Login</a
+            />Login</nuxt-link
           >
           <a
             href="#"
@@ -83,7 +82,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const isMenuOpen = ref(false);
 
