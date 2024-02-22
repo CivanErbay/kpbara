@@ -17,11 +17,11 @@
           <p class="text-4xl md:text-6xl bold font-interbold md:w-[500px]">
             Wir denken KI für Dich
             <span
-              class="text-[#FB951C] hidden md:block after:content-heroUnderline after:inline-block after:w-8 after:absolute after:left-[300px] after:top-[230px]"
+              class="text-[#FB951C] after:content-heroUnderline after:inline-block after:w-8 after:absolute after:left-[50px] after:top-[121px] md:after:left-[300px] md:after:top-[230px]"
               >neu</span
             >
           </p>
-          <p class="font-interthin text-4xl md:w-[650px] mt-16">
+          <p class="font-interthin text-2xl md:text-4xl md:w-[650px] mt-16">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat

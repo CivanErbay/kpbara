@@ -14,7 +14,7 @@
           alt="Flowbite Logo"
         /> -->
         <span class="self-center text-2xl font-semibold whitespace-nowrap"
-          >Sly.api</span
+          >slyAPI</span
         >
       </a>
       <button

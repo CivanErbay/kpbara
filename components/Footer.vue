@@ -1,37 +1,50 @@
 <template>
-  <div class="relative bg-heroBg bg-cover bg-center px-4 md:px-24 pt-32 pb-24">
+  <div
+    class="relative bg-heroBg bg-cover bg-center px-4 md:px-24 pt-32 pb-24 mt-12 md:mt-0"
+  >
     <div class="container mx-auto">
       <img
-        class="absolute top-0 left-0 h-3/4 -z-10"
+        class="absolute top-0 left-0 h-1/2 md:h-3/4 -z-10"
         src="../assets/images/Rectangle_5.png"
         alt=""
       />
       <img
-        class="absolute bottom-20 right-20 h-1/2 transform rotate-90 -z-10"
+        class="absolute bottom-1 md:bottom-20 -right-3 md:right-20 h-1/3 md:h-1/2 transform rotate-90 -z-10"
         src="../assets/images/Rectangle_8.png"
         alt=""
       />
       <div class="flex flex-wrap flex-row">
-        <div class="flex flex-col w-4/5 mb-8 lg:w-1/3 pr-0 sm:pr-12 lg:pr-24">
-          <h2 class="text-3xl font-interbold">Sly.api</h2>
+        <div
+          class="flex flex-col w-4/5 mb-8 lg:w-1/3 pr-0 sm:pr-12 lg:pr-24"
+        >
+          <h2 class="text-3xl font-interbold">slyAPI</h2>
           <p class="font-interthin mt-8">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd
+            gubergren
           </p>
         </div>
-        <div class="flex flex-col w-1/2 mb-8 lg:w-1/6 order-last lg:order-none">
+        <div
+          class="flex flex-col w-1/2 mb-8 lg:w-1/6 order-last lg:order-none"
+        >
           <a href="" class="font-interbold mb-8">Links</a>
           <a href="" class="font-interthin mb-4">Features</a>
-          <a href="" class="font-interthin mb-4">Wie es funktioniert</a>
+          <a href="" class="font-interthin mb-4"
+            >Wie es funktioniert</a
+          >
           <a href="" class="font-interthin mb-4">Über uns</a>
           <a href="" class="font-interthin">Kostenlose Demo</a>
         </div>
-        <div class="flex flex-col mb-8 w-1/2 lg:w-1/6 order-last lg:order-none">
+        <div
+          class="flex flex-col mb-8 w-1/2 lg:w-1/6 order-last lg:order-none"
+        >
           <a href="" class="font-interbold mb-8">Unternehmen</a>
           <a href="" class="font-interthin mb-4">AGB</a>
-          <a href="" class="font-interthin mb-4">Datenschutzerklärung</a>
+          <a href="" class="font-interthin mb-4"
+            >Datenschutzerklärung</a
+          >
           <a href="" class="font-interthin mb-4">Kontakt</a>
           <a href="" class="font-interthin mb-4">Impressum</a>
         </div>
@@ -40,8 +53,8 @@
             Du willst keine News mehr verpassen?
           </p>
           <p class="font-interthin">
-            Wir informieren dich über Aktionen und exklusive Angebote sowie neue
-            Lehrmaterialien.
+            Wir informieren dich über Aktionen und exklusive Angebote
+            sowie neue Lehrmaterialien.
           </p>
 
           <div class="relative mt-12">
@@ -79,7 +92,9 @@
       </div>
     </div>
   </div>
-  <small class="mx-auto opacity-50 w-full">apibara 2024</small>
+  <div class="flex justify-center opacity-50 w-full my-2">
+    <small>slyapi.com 2024</small>
+  </div>
 </template>
 
 <script setup></script>

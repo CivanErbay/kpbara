@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 relative px-4 lg:p-24 flex flex-col xl:flex-row">
+  <div class="pb-12 -ml-3 md:ml-0 relative px-4 lg:p-24 flex flex-col xl:flex-row">
     <img
       class="hidden xl:block w-[300px] md:w-[500px] h-full"
       src="../assets/images/person_3.png"
@@ -7,12 +7,12 @@
     />
     <div class="relative xl:ml-12">
       <img
-        class="w-[300px] md:w-[500px]"
+        class="w-[345px] md:w-[500px]"
         src="../assets/images/person_4.png"
         alt=""
       />
       <img
-        class="w-[300px] md:w-[500px] absolute left-0 top-0"
+        class="w-[345px] md:w-[500px] absolute left-0 top-0"
         src="../assets/images/gradient.png"
         alt=""
       />
@@ -25,7 +25,7 @@
               <h1 class="text-2xl font-interbold text-left">
                 {{ slide.headline }}
               </h1>
-              <p class="font-interthin text-left my-3">{{ slide.content }}</p>
+              <p class="font-interthin text-left mx-3 my-3">{{ slide.content }}</p>
             </div>
           </slide>
 
