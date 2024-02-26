@@ -1,5 +1,16 @@
 <template>
-  <div class="pb-12 -ml-3 md:ml-0 relative px-4 lg:p-24 flex flex-col xl:flex-row">
+  <div class="flex flex-col mg:flex-row px-4 lg:p-24 lg:pb-0 justify-between">
+    <div class="flex flex-col mb-8 md:w-2/5">
+      <h2 class="font-interbold text-3xl">Für wen?</h2>
+      <p class="font-interthin my-6">
+        Um Ihnen einen Einblick in unsere Dienstleistungen zu geben,
+        haben wir eine Auswahl von Anwendungsfällen zusammengestellt.
+      </p>
+    </div>
+  </div>
+  <div
+    class="pb-12 -ml-3 md:ml-0 relative px-4 lg:pb-24 lg:px-24 flex flex-col xl:flex-row"
+  >
     <img
       class="hidden xl:block w-[300px] md:w-[500px] h-full"
       src="../assets/images/person_3.png"
@@ -25,7 +36,9 @@
               <h1 class="text-2xl font-interbold text-left">
                 {{ slide.headline }}
               </h1>
-              <p class="font-interthin text-left mx-3 my-3">{{ slide.content }}</p>
+              <p class="font-interthin text-left mx-3 my-3">
+                {{ slide.content }}
+              </p>
             </div>
           </slide>
 
@@ -57,29 +70,28 @@ export default defineComponent({
     return {
       sliderData: [
         {
-          headline: '1. Basic',
+          headline: '1. Lehrmaterialien',
           content:
-            '  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.',
+            'Erstelle hochwertige Lehrmaterialien von Grund auf oder optimiere und individualisiere bereits vorhandene.',
         },
         {
-          headline: '2. Basic',
+          headline: '2. Kundenkommunikation',
           content:
-            '  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.',
+            'slyAPI generiert automatisierte Kundenantworten durch Analyse von E-Mails, Nachrichten und Formularen, basierend auf Kontext und Unternehmensrichtlinien.',
         },
         {
-          headline: '3. Basic',
-          content:
-            '  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.',
+          headline: '3. Dokumentenverarbeitung',
+          content: 'slyAPI analysiert große Mengen von Dokumenten und extrahiert relevante Informationen, z. B. zur Identifizierung wichtiger Klauseln in Verträgen für Rechtsanwaltskanzleien oder zur Überprüfung von Schadensfällen für Versicherungsunternehmen.'
         },
         {
-          headline: '4. Basic',
+          headline: '4. Automatisierte Berichterstellung',
           content:
-            '  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.',
+            'Nutzen Sie unsere API, um automatisch Berichte zu generieren. Sammeln, analysieren und präsentieren Sie Daten aus verschiedenen Quellen in einem leicht verständlichen Format.',
         },
         {
-          headline: '5. Basic',
+          headline: '5. Content-Erstellung und -Optimierung',
           content:
-            '  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.',
+            'Setzen Sie slyAPI ein, um textliche Inhalte zu generieren oder vorhandene Inhalte zu optimieren. Lassen Sie die KI relevante Informationen aus verschiedenen Quellen zusammenstellen und in einem ansprechenden Format präsentieren.',
         },
       ],
     };

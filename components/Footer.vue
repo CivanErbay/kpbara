@@ -13,21 +13,19 @@
         src="../assets/images/Rectangle_8.png"
         alt=""
       />
-      <div class="flex flex-wrap flex-row">
+      <div class="flex flex-wrap justify-between">
         <div
-          class="flex flex-col w-4/5 mb-8 lg:w-1/3 pr-0 sm:pr-12 lg:pr-24"
+          class="flex flex-col w-4/5 mb-8 lg:w-1/3 pr-0 sm:pr-12 xl:pr-24"
         >
           <h2 class="text-3xl font-interbold">slyAPI</h2>
           <p class="font-interthin mt-8">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et
-            accusam et justo duo dolores et ea rebum. Stet clita kasd
-            gubergren
+            Kontaktieren Sie uns noch heute, um mehr über unsere
+            personalisierten KI-Lösungen zu erfahren und wie Sie Ihr
+            Unternehmen voranbringen können.
           </p>
         </div>
-        <div
-          class="flex flex-col w-1/2 mb-8 lg:w-1/6 order-last lg:order-none"
+      <!--   <div
+          class="flex flex-col w-1/2 mb-8 lg:px-4 lg:w-1/6 order-last md:order-none"
         >
           <a href="" class="font-interbold mb-8">Links</a>
           <a href="" class="font-interthin mb-4">Features</a>
@@ -36,9 +34,9 @@
           >
           <a href="" class="font-interthin mb-4">Über uns</a>
           <a href="" class="font-interthin">Kostenlose Demo</a>
-        </div>
+        </div> -->
         <div
-          class="flex flex-col mb-8 w-1/2 lg:w-1/6 order-last lg:order-none"
+          class="flex flex-col mb-8 w-1/2 lg:px-4 lg:w-1/3 order-last md:order-none"
         >
           <a href="" class="font-interbold mb-8">Unternehmen</a>
           <a href="" class="font-interthin mb-4">AGB</a>

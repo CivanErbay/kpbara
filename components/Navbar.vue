@@ -1,7 +1,7 @@
 <template>
   <nav class="">
     <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 font-inter relative"
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8 font-inter relative"
       :class="{
         'overflow-hidden': !isMenuOpen,
         'overflow-visible ': isMenuOpen,

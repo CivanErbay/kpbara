@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-heroBg bg-cover bg-center">
+  <div class="relative bg-heroBg bg-cover bg-center rounded-lg">
     <div class="container mx-auto">
       <img
         class="absolute top-0 left-0 h-3/4"
@@ -24,10 +24,10 @@
             >
           </p>
           <p
-            class="font-interthin text-2xl md:text-4xl w-[250px] md:w-[450px] mt-16"
+            class="font-interthin text-2xl md:text-4xl w-[250px] md:w-[500px] mt-16"
           >
             Nutzen Sie das transformative Potenzial unserer API und
-            bleiben Sie einen Schritt voraus.
+            bleiben Sie einen Schritt voraus
           </p>
           <a
             href="#"
@@ -47,17 +47,17 @@
             alt=""
           />
           <img
-            class="absolute top-20 right-60 h-16 hidden lg:block"
+            class="absolute right-0 mt-2 h-16 xl:top-[6rem] xl:right-[14rem] xl:h-16 "
             src="../assets/images/bulb.png"
             alt=""
           />
           <img
-            class="absolute bottom-20 right-40 h-20 hidden lg:block"
+            class="absolute top-[8px] right-0 h-16 xl:bottom-20 xl:right-40 xl:h-20 xl:top-auto"
             src="../assets/images/bubble.png"
             alt=""
           />
           <img
-            class="absolute bottom-0 left-40 hidden lg:block"
+            class="absolute bottom-0 right-0 h-16 xl:bottom-0 xl:left-40 xl:h-auto "
             src="../assets/images/pen.png"
             alt=""
           />
