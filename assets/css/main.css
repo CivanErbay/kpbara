@@ -34,3 +34,12 @@ body {
   font-stretch: 50% 200%;
   font-style: oblique 0deg 10deg;
 }
+
+a:hover {
+  transition: font-weight 0.2s ease;
+  font-weight: 300;
+}
+
+a:hover {
+  font-weight: 400;
+}
