@@ -14,17 +14,15 @@
         alt=""
       />
       <div class="flex flex-wrap justify-between">
-        <div
-          class="flex flex-col w-4/5 mb-8 lg:w-1/3 pr-0 sm:pr-12 xl:pr-24"
-        >
-          <h2 class="text-3xl font-interbold">slyAPI</h2>
+        <div class="flex flex-col w-4/5 mb-8 lg:w-1/3 pr-0 sm:pr-12 xl:pr-24">
+          <h2 class="text-3xl font-semibold">slyAPI</h2>
           <p class="font-interthin mt-8">
             Kontaktieren Sie uns noch heute, um mehr über unsere
-            personalisierten KI-Lösungen zu erfahren und wie Sie Ihr
-            Unternehmen voranbringen können.
+            personalisierten KI-Lösungen zu erfahren und wie Sie Ihr Unternehmen
+            voranbringen können.
           </p>
         </div>
-      <!--   <div
+        <!--   <div
           class="flex flex-col w-1/2 mb-8 lg:px-4 lg:w-1/6 order-last md:order-none"
         >
           <a href="" class="font-interbold mb-8">Links</a>
@@ -40,9 +38,7 @@
         >
           <a href="" class="font-interbold mb-8">Unternehmen</a>
           <a href="" class="font-interthin mb-4">AGB</a>
-          <a href="" class="font-interthin mb-4"
-            >Datenschutzerklärung</a
-          >
+          <a href="" class="font-interthin mb-4">Datenschutzerklärung</a>
           <a href="" class="font-interthin mb-4">Kontakt</a>
           <a href="" class="font-interthin mb-4">Impressum</a>
         </div>
@@ -51,8 +47,8 @@
             Du willst keine News mehr verpassen?
           </p>
           <p class="font-interthin">
-            Wir informieren dich über Aktionen und exklusive Angebote
-            sowie neue Lehrmaterialien.
+            Wir informieren dich über Aktionen und exklusive Angebote sowie neue
+            Lehrmaterialien.
           </p>
 
           <div class="relative mt-12">

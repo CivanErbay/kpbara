@@ -43,7 +43,7 @@
         </svg>
       </button>
       <div
-        class="bg-gray-200/90 absolute z-50 md:translate-x-0 p-8 md:p-0 top-full md:top-auto inset-x-0 h-screen md:h-auto flex-col md:bg-transparent md:flex md:flex-row font-interlight items-center justify-center md:justify-end transition-all"
+        class="bg-gray-200/90 absolute font-normal z-50 md:translate-x-0 p-8 md:p-0 top-full md:top-auto inset-x-0 h-screen md:h-auto flex-col md:bg-transparent md:flex md:flex-row font-interlight items-center justify-center md:justify-end transition-all"
         :class="{
           'translate-x-[100vw]': !isMenuOpen,
           'translate-x-0': isMenuOpen,

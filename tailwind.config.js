@@ -12,9 +12,6 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ['inter', 'sans-serif'],
-        interbold: ['inter-bold', 'sans-serif'],
-        interthin: ['inter-thin', 'sans-serif'],
-        interlight: ['inter-light', 'sans-serif'],
       },
       backgroundImage: {
         heroBg: 'url("/assets/images/Rectangle_4.svg")',
@@ -25,4 +22,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

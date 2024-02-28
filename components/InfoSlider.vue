@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col mg:flex-row px-4 lg:p-24 lg:pb-0 justify-between">
     <div class="flex flex-col mb-8 md:w-2/5">
-      <h2 class="font-interbold text-3xl">Für wen?</h2>
+      <h2 class="font-normal text-3xl">Für wen?</h2>
       <p class="font-interthin my-6">
-        Um Ihnen einen Einblick in unsere Dienstleistungen zu geben,
-        haben wir eine Auswahl von Anwendungsfällen zusammengestellt.
+        Um Ihnen einen Einblick in unsere Dienstleistungen zu geben, haben wir
+        eine Auswahl von Anwendungsfällen zusammengestellt.
       </p>
     </div>
   </div>
@@ -81,7 +81,8 @@ export default defineComponent({
         },
         {
           headline: '3. Dokumentenverarbeitung',
-          content: 'slyAPI analysiert große Mengen von Dokumenten und extrahiert relevante Informationen, z. B. zur Identifizierung wichtiger Klauseln in Verträgen für Rechtsanwaltskanzleien oder zur Überprüfung von Schadensfällen für Versicherungsunternehmen.'
+          content:
+            'slyAPI analysiert große Mengen von Dokumenten und extrahiert relevante Informationen, z. B. zur Identifizierung wichtiger Klauseln in Verträgen für Rechtsanwaltskanzleien oder zur Überprüfung von Schadensfällen für Versicherungsunternehmen.',
         },
         {
           headline: '4. Automatisierte Berichterstellung',
